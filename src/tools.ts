@@ -1,4 +1,4 @@
-import { MemoryBankStorage } from './storage';
+import { MemoryBankStorage } from './storage.js';
 
 interface VanModeInput {
   complexity: '1' | '2' | '3' | '4';

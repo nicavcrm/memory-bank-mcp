@@ -209,8 +209,7 @@ Install an MCP extension for VS Code and configure it to connect to the Memory B
   "mcp.servers": {
     "memory-bank": {
       "command": "node",
-      "args": ["/path/to/memory-bank-mcp/dist/server.js"],
-      "cwd": "/path/to/your/workspace"
+      "args": ["/path/to/memory-bank-mcp/dist/server.js"]
     }
   }
 }

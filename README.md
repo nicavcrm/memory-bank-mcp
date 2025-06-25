@@ -166,6 +166,32 @@ npm run build
 npm start
 ```
 
+## Troubleshooting
+
+### Module Resolution Errors
+
+If you encounter `ERR_MODULE_NOT_FOUND` errors when running the server, ensure:
+
+1. **Build First**: Always run `npm run build` before `npm start`
+2. **ES Module Imports**: All imports in source files use `.js` extensions
+3. **TypeScript Config**: The `tsconfig.json` is configured for ES modules with `"module": "ESNext"`
+
+```bash
+# Clean build if issues persist
+rm -rf dist/
+npm run build
+npm start
+```
+
+### Memory Bank Directory Permissions
+
+If the server can't create the `.memory_bank` directory:
+
+```bash
+# Ensure write permissions in the working directory
+chmod 755 .
+```
+
 ## Integration
 
 This MCP server can be integrated with:

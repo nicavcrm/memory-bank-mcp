@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "type": "module",
   "main": "dist/server.js",
+  "files": [
+    "dist/",
+    "README.md",
+    "DEMO.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/server.js",
@@ -12,10 +20,21 @@
   "keywords": [
     "mcp",
     "memory-bank",
-    "cursor"
+    "cursor",
+    "model-context-protocol",
+    "development-workflow",
+    "project-management"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Nick Cao <nick.cao@avcrm.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicavcrm/memory-bank-mcp.git"
+  },
+  "homepage": "https://github.com/nicavcrm/memory-bank-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/nicavcrm/memory-bank-mcp/issues"
+  },
   "description": "Memory Bank MCP Server with VAN, PLAN, CREATIVE, IMPLEMENT, and REFLECT+ARCHIVE modes",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.13.1",
