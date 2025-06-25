@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server implementing the Memory Bank system based on the [cursor-memory-bank](https://github.com/vanzan01/cursor-memory-bank) custom modes.
 
+<a href="https://glama.ai/mcp/servers/@nicavcrm/memory-bank-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@nicavcrm/memory-bank-mcp/badge" alt="Memory Bank Server MCP server" />
+</a>
+
 ## Overview
 
 This MCP server provides structured workflow tools for managing software development projects through different complexity levels and phases:
