@@ -210,4 +210,4 @@ This implementation is based on the excellent [cursor-memory-bank](https://githu
 
 ## License
 
-ISC
+MIT
